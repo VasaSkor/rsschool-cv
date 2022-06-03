@@ -14,8 +14,8 @@
 ## _Example code_
 ```javascript
 let UserName = prompt('Enter your nickname', 'Ivan')
-let AgeUser = prompt('Enter your age', 18)
-  if (AgeUser >= 18){
+let AgeUser = prompt('Enter your age', 19)
+  if (AgeUser >= 19){
 alert(`Hello ${UserName}`)
 }
   else{
