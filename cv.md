@@ -7,7 +7,7 @@
 ### Graduated from the Minsk State College of Electronics in 2020 as a computer operator. All my life I was fond of computers, and finally my hobbies led me to JS/FE development. At the moment, I am learning a new craft, I hope the training will be successful and I will be able to join the ranks of the IT world.
 ## _My skills_
 ### - *HTML & CSS*
-### - *Basical konwolege QA-engineering*
+### - *Basically knowledge QA-engineering*
 ### - *VSC*
 ### - *Markdown*
 ### - *GitHub*
