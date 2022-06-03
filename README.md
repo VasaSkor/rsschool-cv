@@ -1,1 +1,1 @@
-# rsschool-cv
+https://VasaSkor.github.io/rsschool-cv/cv
