@@ -9,8 +9,9 @@ background: -webkit-linear-gradient(90deg, rgb(110, 34, 133), rgb(93, 44, 176), 
 background: -moz-linear-gradient(90deg, rgb(110, 34, 133), rgb(93, 44, 176), rgb(32, 126, 141));
 background: linear-gradient(90deg, rgb(110, 34, 133), rgb(93, 44, 176), rgb(32, 126, 141));
 text-align: right;
-word-spacing: 10px;
+word-spacing: 15px;
 font-family: Impact;
+font-size: 25px;
 }
 a.normal_word_spacing{
     word-spacing: initial;
@@ -43,6 +44,10 @@ a.change-text{
 
   #background_block_left{
     text-align: left;
+  }
+
+  .Basically_block{
+
   }
        
   
