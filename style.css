@@ -31,7 +31,6 @@ a.change-text{
 
 .shadow-text{
     padding: 20px 0px;
-    text-transform: uppercase;
     line-height: 1;
     -webkit-transition: all 0.5s ease;
             transition: all 0.5s ease;
@@ -41,3 +40,10 @@ a.change-text{
     -moz-text-shadow: 2px 2px 2px #000;
         text-shadow: 2px 2px 2px #000;
   }
+
+  #background_block_left{
+    text-align: left;
+  }
+       
+  
+  
