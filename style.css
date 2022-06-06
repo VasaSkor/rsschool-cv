@@ -2,8 +2,8 @@
 background-color: #1c1b1b
 }
 .background_block{
-margin: 10;
-padding: 10px 10px 10px 5px;
+margin-bottom: 0;
+padding: 10px 10px 5px 5px;
 list-style-type: none;
 background: -webkit-linear-gradient(90deg, rgb(110, 34, 133), rgb(93, 44, 176), rgb(32, 126, 141));
 background: -moz-linear-gradient(90deg, rgb(110, 34, 133), rgb(93, 44, 176), rgb(32, 126, 141));
@@ -42,26 +42,72 @@ a.change-text{
         text-shadow: 2px 2px 2px #000;
   }
 
-  #background_block_left{
-    text-align: left;
-  }
-
   .Basically_block{
     background: -webkit-linear-gradient(45deg, rgb(105, 0, 0), rgb(49, 33, 69), rgb(176, 0, 0));
     background: -moz-linear-gradient(45deg, rgb(105, 0, 0), rgb(49, 33, 69), rgb(176, 0, 0));
     background: linear-gradient(45deg, rgb(105, 0, 0), rgb(49, 33, 69), rgb(176, 0, 0));
   }
 
-  .Basically_block_Logo{
-    background: -webkit-linear-gradient(45deg, rgb(167, 23, 23), rgb(97, 24, 184), rgb(210, 32, 32));
-    background: -moz-linear-gradient(45deg, rgb(167, 23, 23), rgb(97, 24, 184), rgb(210, 32, 32));
-    background: linear-gradient(45deg, rgb(167, 23, 23), rgb(97, 24, 184), rgb(210, 32, 32));
-  }
-  .border_bottom{
+  .border_top{
     border-top: 5px solid rgb(3, 3, 30); 
+    padding: 0 auto;
+    margin: 10px;
+  }
+
+  .border_left{
+    border-left: 5px solid rgb(3, 3, 30); 
     padding: 15px;
     margin: 10px;
   }
+  .border_right{
+    border-right: 5px solid rgb(3, 3, 30); 
+    padding: 15px;
+    margin: 10px;
+  }
+
+  .container{
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    margin-top: auto;
+  }
+
+  .logo_contacts{
+    width: 65px;
+    height: 61px;
+    margin-right: 26px;
+    margin-left: -25px;
+  }
+
+  .block_body{
+    width: 100%;
+    height: 83px;
+    margin-bottom: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .photo_body{
+    width: 100%;
+    height: 83px;
+    margin-bottom: 64px;
+    display: inline-grid;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .photo_contacts{
+    width: 365px;
+    height: 361px;
+    margin-right: 26px;
+    margin-left: -25px;
+  }
+
+
+  
+
+ 
        
   
   
