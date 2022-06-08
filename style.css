@@ -112,7 +112,6 @@ a.change-text{
 
   .black-color {
     border-color: #000;
-    transition: filter 0,5s ease-in-out;
     -webkit-filter: invert(0%); 
     filter: invert(0%); 
   }
@@ -123,15 +122,19 @@ a.change-text{
     filter:invert(100%); 
   }
 
-  .red-color {
-    border-color: #000000;
-    transition: filter 0,5s ease-in-out;
+  .Logo_nav{
+    float: left;
+    height: 30px;
+    width: 90px;
+  }
+
+  .black_color_nav {
+    transition: filter 0.5s ease-in-out;
     -webkit-filter: invert(0%); 
     filter: invert(0%); 
   }
-
-  .red-color:hover {
+   
+  .black_color_nav:hover {
     -webkit-filter: invert(100%); 
-    border-color: rgb(255, 255, 255);
     filter:invert(100%); 
   }
