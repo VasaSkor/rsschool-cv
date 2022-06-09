@@ -50,7 +50,7 @@ a.change-text{
 
   .border_top{
     border-top: 5px solid rgb(3, 3, 30); 
-    padding: 0 auto;
+    padding: 0;
     margin: 10px;
   }
 
@@ -67,7 +67,7 @@ a.change-text{
 
   .border_bottom{
     border-bottom: 5px solid rgb(3, 3, 30); 
-    padding: 0 auto;
+    padding: 0;
     margin: 10px;}
 
   .container{
@@ -141,6 +141,7 @@ a.change-text{
 
   .Font_main_text{
     font-family: Snell Roundhand, cursive;
+    font-style: italic;
     color: rgb(0, 0, 0);
     text-align: center;
     margin-top: 10px;
@@ -169,6 +170,7 @@ a.change-text{
 
   .Font_main_text_content{
     font-family: Snell Roundhand, cursive;
+    font-style: italic;
     color: rgb(0, 0, 0);
     text-align: center;
     margin-top: 20px;
