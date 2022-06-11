@@ -228,24 +228,23 @@ a.change-text:hover {
 .skills {
   text-align: right; 
   padding-right: 20px; 
-  line-height: 0 auto; 
   color: rgb(255, 255, 255); 
 }
 
 .html {
-  width: 95%;
+  width: 90%;
   background: -webkit-linear-gradient(90deg, rgb(96, 6, 6), rgb(180, 12, 12));
   background: -moz-linear-gradient(90deg, rgb(96, 6, 6), rgb(180, 12, 12));
-background: linear-gradient(90deg, rgb(96, 6, 6), rgb(180, 12, 12));
+  background: linear-gradient(90deg, rgb(96, 6, 6), rgb(180, 12, 12));
 } 
 .css {
-  width: 0 auto;
+  width:  auto;
   background: -webkit-linear-gradient(90deg, rgb(17, 13, 79), rgb(0, 64, 255));
   background: -moz-linear-gradient(90deg, rgb(17, 13, 79), rgb(0, 64, 255));
   background: linear-gradient(90deg, rgb(17, 13, 79), rgb(0, 64, 255));
   } 
 .Basically_knowledge_QA-engineering{
-  width: 0 auto;
+  width:  auto;
   background: -webkit-linear-gradient(90deg, rgb(24, 89, 92), rgb(1, 152, 195));
   background: -moz-linear-gradient(90deg, rgb(24, 89, 92), rgb(1, 152, 195));
   background: linear-gradient(90deg, rgb(24, 89, 92), rgb(1, 152, 195));
@@ -270,6 +269,13 @@ background: linear-gradient(90deg, rgb(96, 6, 6), rgb(180, 12, 12));
   background: -webkit-linear-gradient(90deg, rgb(0, 0, 0), rgb(102, 103, 103));
   background: -moz-linear-gradient(90deg, rgb(0, 0, 0), rgb(102, 103, 103));
   background: linear-gradient(90deg, rgb(0, 0, 0), rgb(102, 103, 103));
+}
+
+.JS{
+  width: 65%;
+  background: -webkit-linear-gradient(90deg, rgb(120, 131, 18), rgb(179, 182, 13));
+  background: -moz-linear-gradient(90deg, rgb(120, 131, 18), rgb(179, 182, 13));
+  background: linear-gradient(90deg, rgb(120, 131, 18), rgb(179, 182, 13));
 }
 
 .change-text_CSS{
@@ -333,5 +339,25 @@ background: linear-gradient(90deg, rgb(96, 6, 6), rgb(180, 12, 12));
 .change-text_GitHub:hover {
   color: #808586;
 }
+
+.change-text_JS{
+  line-height: 1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.change-text_JS:hover {
+  color: #f6ff00;
+}
+
+code{
+  color: rgb(20, 171, 9);
+}
+
+.Example_code_block_content{
+background-color: #1c1b1b;
+}
+
+
 
 
