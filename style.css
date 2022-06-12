@@ -91,6 +91,14 @@ a.change-text:hover {
   margin-left: -25px;
 }
 
+.logo_contacts_LK {
+  width: 65px;
+  height: 61px;
+  margin-right: 0;
+  margin-left:-25px;
+}
+
+
 
 .block_body {
   width: 100%;
@@ -397,20 +405,20 @@ a.change-text_project{
 }
 
 a.change-text_project:hover {
-  color: red;
+  color: #0f1b54;
   font-style: italic;
   text-shadow: 2px 2px 2px rgb(255, 255, 255);
 }
 
 .black_color_project {
   transition: filter 0.5s ease-in-out;
-  -webkit-filter: blur(2px);
-  filter: blur(2px);
+  -webkit-filter:brightness()(65%);
+  filter:brightness(65%);
 }
 
 .black_color_project:hover {
-  -webkit-filter: blur(0);
-  filter: blur(0);
+  -webkit-filter:brightness(100%);
+  filter:brightness(100%);
 }
 
 .college_icon{
@@ -462,5 +470,30 @@ a.change-text_project:hover {
 .En_flag_icon:hover{
   -webkit-filter: opacity(100%);
   filter: opacity(100%);
+}
+
+.footer_git{
+  height: auto;
+  width: auto;
+  justify-self: left;
+}
+
+
+.footer_main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 35px 70px 18px 80px;
+    background-color: #1c1b1b
+}
+
+.footer_main_p{
+  justify-self: center;
+}
+
+.RSschool_logo{
+  height: 48px;
+  width: 130px;
+  justify-self: end;
 }
 
