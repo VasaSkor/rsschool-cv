@@ -359,5 +359,43 @@ background-color: #1c1b1b;
 }
 
 
+.photo_projects{
+  width: auto;
+  height: auto;
+  margin-right: 26px;
+  margin-left: -25px;
+}
+
+a.change-text_project{
+  color: #ffffff;
+  margin-left: -35px ;
+  margin-bottom: 10px;
+  line-height: 1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-shadow: 2px 2px 2px #000;
+}
+
+a.change-text_project:hover {
+  color: red;
+  font-style: italic;
+  text-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+
+.black_color_project {
+  transition: filter 0.5s ease-in-out;
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+}
+
+.black_color_project:hover {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+}
+
+
 
 
