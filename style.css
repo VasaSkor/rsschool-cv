@@ -1,8 +1,8 @@
-.background_colors {
+.background_colors {  
   background-color: #1c1b1b
 }
 
-.background_block {
+.background_block { 
   margin-bottom: 0;
   padding: 10px 10px 5px 5px;
   list-style-type: none;
@@ -21,7 +21,7 @@ a.normal_word_spacing {
   text-decoration: none;
 }
 
-a.change-text {
+a.change_text {
   color: #000000;
   padding: 20px 0px;
   text-transform: uppercase;
@@ -30,18 +30,18 @@ a.change-text {
   transition: all 0.5s ease;
 }
 
-a.change-text:hover {
+a.change_text:hover {
   color: #ffffff;
 }
 
-.shadow-text {
+.shadow_text {
   padding: 20px 0px;
   line-height: 1;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
-.shadow-text:hover {
+.shadow_text:hover {
   -webkit-text-shadow: 2px 2px 2px #000;
   -moz-text-shadow: 2px 2px 2px #000;
   text-shadow: 2px 2px 2px #000;
@@ -125,13 +125,13 @@ a.change-text:hover {
   margin-left: -25px;
 }
 
-.black-color {
+.black_color {
   border-color: #000;
   -webkit-filter: invert(0%);
   filter: invert(0%);
 }
 
-.black-color:hover {
+.black_color:hover {
   -webkit-filter: invert(100%);
   border-color: rgb(255, 255, 255);
   filter: invert(100%);
@@ -208,13 +208,13 @@ a.change-text:hover {
   font-size: 25px;
 }
 
-.change-text {
+.change_text {
   line-height: 1;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
-.change-text:hover {
+.change_text:hover {
   color: #ff0000;
 }
 
@@ -293,13 +293,13 @@ a.change-text:hover {
   background: linear-gradient(90deg, rgb(120, 131, 18), rgb(179, 182, 13));
 }
 
-.change-text_CSS{
+.change_text_CSS{
   line-height: 1;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
-.change-text_CSS:hover {
+.change_text_CSS:hover {
   color: #3d3dfe;
 }
 
@@ -315,63 +315,63 @@ a.change-text:hover {
   margin-top: 10px;
 }
 
-.change-text_Basically_knowledge_QA-engineering{
+.change_text_Basically_knowledge_QA-engineering{
   line-height: 1;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
-.change-text_Basically_knowledge_QA-engineering:hover {
+.change_text_Basically_knowledge_QA-engineering:hover {
   color: #15bb8c;
 }
 
-.change-text_VSC{
+.change_text_VSC{
   line-height: 1;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
-.change-text_VSC:hover {
+.change_text_VSC:hover {
   color: #911acd;
 }
 
-.change-text_Markdown{
+.change_text_Markdown{
   line-height: 1;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
-.change-text_Markdown:hover {
+.change_text_Markdown:hover {
   color: #18c3ea;
 }
 
-.change-text_GitHub{
+.change_text_GitHub{
   line-height: 1;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
-.change-text_GitHub:hover {
+.change_text_GitHub:hover {
   color: #808586;
 }
 
-.change-text_GIT{
+.change_text_GIT{
   line-height: 1;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
-.change-text_GIT:hover {
+.change_text_GIT:hover {
   color: #e8bb08;
 }
 
-.change-text_JS{
+.change_text_JS{
   line-height: 1;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
-.change-text_JS:hover {
+.change_text_JS:hover {
   color: #f6ff00;
 }
 
@@ -390,7 +390,7 @@ background-color: #1c1b1b;
   margin-left: -25px;
 }
 
-a.change-text_project{
+a.change_text_project{
   color: #ffffff;
   margin-left: 60px;
   width: 145px;
@@ -403,7 +403,7 @@ a.change-text_project{
   text-shadow: 2px 2px 2px #000;
 }
 
-a.change-text_project:hover {
+a.change_text_project:hover {
   color: #0f1b54;
   font-style: italic;
   text-shadow: 2px 2px 2px rgb(255, 255, 255);
