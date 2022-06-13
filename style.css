@@ -11,13 +11,13 @@
   background: linear-gradient(90deg, rgb(110, 34, 133), rgb(93, 44, 176), rgb(32, 126, 141));
   text-align: right;
   word-spacing: 15px;
-  font-family: Impact;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 32px;
 }
 
 a.normal_word_spacing {
   word-spacing: initial;
-  font-family: Impact;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-decoration: none;
 }
 
@@ -155,7 +155,7 @@ a.change_text:hover {
 }
 
 .Font_main_text {
-  font-family: Snell Roundhand, cursive;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-style: italic;
   color: rgb(0, 0, 0);
   text-align: center;
@@ -184,7 +184,7 @@ a.change_text:hover {
 }
 
 .Font_main_text_content {
-  font-family: Snell Roundhand, cursive;
+  font-family: Snell Roundhand, cursive, sans-serif;
   font-style: italic;
   text-align: center;
   font-size: 30px;
@@ -204,7 +204,7 @@ a.change_text:hover {
 }
 
 .paragraph_text_main_block {
-  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  font-family: New Century Schoolbook, TeX Gyre Schola, sans-serif;
   font-size: 25px;
 }
 
