@@ -1,49 +1,519 @@
-.background_colors{
-background-color: #1c1b1b
-}
-.background_block{
-margin: 10;
-padding: 10px 10px 10px 5px;
-list-style-type: none;
-background: -webkit-linear-gradient(90deg, rgb(110, 34, 133), rgb(93, 44, 176), rgb(32, 126, 141));
-background: -moz-linear-gradient(90deg, rgb(110, 34, 133), rgb(93, 44, 176), rgb(32, 126, 141));
-background: linear-gradient(90deg, rgb(110, 34, 133), rgb(93, 44, 176), rgb(32, 126, 141));
-text-align: right;
-word-spacing: 10px;
-font-family: Impact;
-}
-a.normal_word_spacing{
-    word-spacing: initial;
-    font-family: Impact;
-    text-decoration: none;
-}
-a.change-text{
-    color: #000000; 
-    padding: 20px 0px;
-    text-transform: uppercase;
-    line-height: 1;
-    -webkit-transition: all 0.5s ease;
-            transition: all 0.5s ease; 
-  }
-  a.change-text:hover{
-    color: #ffffff; 
+.background_colors {  
+  background-color: #1c1b1b
 }
 
-.shadow-text{
-    padding: 20px 0px;
-    line-height: 1;
-    -webkit-transition: all 0.5s ease;
-            transition: all 0.5s ease;
-  }
-  .shadow-text:hover{
-    -webkit-text-shadow: 2px 2px 2px #000;
-    -moz-text-shadow: 2px 2px 2px #000;
-        text-shadow: 2px 2px 2px #000;
+.background_block { 
+  margin-bottom: 0;
+  padding: 10px 10px 5px 5px;
+  list-style-type: none;
+  background: -webkit-linear-gradient(90deg, rgb(110, 34, 133), rgb(93, 44, 176), rgb(32, 126, 141));
+  background: -moz-linear-gradient(90deg, rgb(110, 34, 133), rgb(93, 44, 176), rgb(32, 126, 141));
+  background: linear-gradient(90deg, rgb(110, 34, 133), rgb(93, 44, 176), rgb(32, 126, 141));
+  text-align: right;
+  word-spacing: 15px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 32px;
+}
+
+a.normal_word_spacing {
+  word-spacing: initial;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: none;
+}
+
+a.change_text {
+  color: #000000;
+  padding: 20px 0px;
+  text-transform: uppercase;
+  line-height: 1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+a.change_text:hover {
+  color: #ffffff;
+}
+
+.shadow_text {
+  padding: 20px 0px;
+  line-height: 1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.shadow_text:hover {
+  -webkit-text-shadow: 2px 2px 2px #000;
+  -moz-text-shadow: 2px 2px 2px #000;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.Basically_block {
+  background: -webkit-linear-gradient(45deg, rgb(105, 0, 0), rgb(49, 33, 69), rgb(176, 0, 0));
+  background: -moz-linear-gradient(45deg, rgb(105, 0, 0), rgb(49, 33, 69), rgb(176, 0, 0));
+  background: linear-gradient(45deg, rgb(105, 0, 0), rgb(49, 33, 69), rgb(176, 0, 0));
+}
+
+.border_top {
+  border-top: 5px solid rgb(3, 3, 30);
+  padding: 0;
+  margin: 10px;
+}
+
+.border_left {
+  border-left: 5px solid rgb(3, 3, 30);
+  padding: 14px;
+  margin: 10px;
+}
+
+.border_right {
+  border-right: 5px solid rgb(3, 3, 30);
+  padding: 14px;
+  margin: 10px;
+}
+
+.border_bottom {
+  border-bottom: 5px solid rgb(3, 3, 30);
+  padding: 0;
+  margin: 10px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  margin-top: auto;
+}
+
+.logo_contacts {
+  width: 65px;
+  height: 61px;
+  margin-right: 26px;
+  margin-left: -25px;
+}
+
+.logo_contacts_LK {
+  width: 65px;
+  height: 61px;
+  margin-right: 0;
+  margin-left:-25px;
+}
+
+
+
+.block_body {
+  width: 100%;
+  height: 83px;
+  margin-bottom: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo_body {
+  width: 100%;
+  height: 83px;
+  margin-bottom: 64px;
+  display: inline-grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo_contacts {
+  width: 365px;
+  height: 361px;
+  margin-right: 26px;
+  margin-left: -25px;
+}
+
+.black_color {
+  border-color: #000;
+  -webkit-filter: invert(0%);
+  filter: invert(0%);
+}
+
+.black_color:hover {
+  -webkit-filter: invert(100%);
+  border-color: rgb(255, 255, 255);
+  filter: invert(100%);
+}
+
+.Logo_nav {
+  float: left;
+  height: 30px;
+  width: 90px;
+}
+
+.black_color_nav {
+  transition: filter 0.5s ease-in-out;
+  -webkit-filter: invert(0%);
+  filter: invert(0%);
+}
+
+.black_color_nav:hover {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.Font_main_text {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 45px;
+}
+
+.Font_main_approximation {
+  transition: 1s;
+  text-align: center;
+}
+
+.Font_main_approximation:hover {
+  transform: scale(1.2);
+}
+
+.border_bottom_main_text {
+  border-bottom: 5px dashed rgb(3, 3, 30);
+  padding: 10px;
+}
+
+.Basically_block_content {
+  background: -webkit-linear-gradient(45deg, rgb(37, 9, 111), rgb(89, 40, 97), rgb(129, 37, 37));
+  background: -moz-linear-gradient(45deg, rgb(37, 9, 111), rgb(89, 40, 97), rgb(129, 37, 37));
+  background: linear-gradient(45deg, rgb(37, 9, 111), rgb(89, 40, 97), rgb(129, 37, 37));
+}
+
+.Font_main_text_content {
+  font-family: Snell Roundhand, cursive, sans-serif;
+  font-style: italic;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-right: 45px;
+}
+
+.black_color_photo {
+  transition: filter 0.5s ease-in-out;
+  -webkit-filter: sepia(0%);
+  filter: sepia(0%);
+}
+
+.black_color_photo:hover {
+  -webkit-filter: sepia(80%);
+  filter: sepia(80%);
+}
+
+.paragraph_text_main_block {
+  font-family: New Century Schoolbook, TeX Gyre Schola, sans-serif;
+  font-size: 25px;
+}
+
+.change_text {
+  line-height: 1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.change_text:hover {
+  color: #ff0000;
+}
+
+.horizon_line_ul{
+  margin: 0; 
+  padding: 0;
+}
+
+.horizon_line_li{
+  display: inline;
+}
+
+.container_skills{
+    width: auto; 
+    height: 0%;
+    background-color: rgb(163, 162, 162);
+}
+
+.skills {
+  text-align: right; 
+  padding-right: 20px; 
+  color: rgb(255, 255, 255); 
+}
+
+.html {
+  width: 90%;
+  background: -webkit-linear-gradient(90deg, rgb(96, 6, 6), rgb(180, 12, 12));
+  background: -moz-linear-gradient(90deg, rgb(96, 6, 6), rgb(180, 12, 12));
+  background: linear-gradient(90deg, rgb(96, 6, 6), rgb(180, 12, 12));
+} 
+.css {
+  width:  auto;
+  background: -webkit-linear-gradient(90deg, rgb(17, 13, 79), rgb(0, 64, 255));
+  background: -moz-linear-gradient(90deg, rgb(17, 13, 79), rgb(0, 64, 255));
+  background: linear-gradient(90deg, rgb(17, 13, 79), rgb(0, 64, 255));
+  } 
+.Basically_knowledge_QA-engineering{
+  width:  auto;
+  background: -webkit-linear-gradient(90deg, rgb(24, 89, 92), rgb(1, 152, 195));
+  background: -moz-linear-gradient(90deg, rgb(24, 89, 92), rgb(1, 152, 195));
+  background: linear-gradient(90deg, rgb(24, 89, 92), rgb(1, 152, 195));
+  } 
+
+.VSC{
+  width: 50%;
+  background: -webkit-linear-gradient(90deg, rgb(70, 24, 84), rgb(105, 20, 154));
+  background: -moz-linear-gradient(90deg, rgb(70, 24, 84), rgb(105, 20, 154));
+  background: linear-gradient(90deg, rgb(70, 24, 84), rgb(105, 20, 154));
+}
+
+.Markdown{
+  width: 85%;
+  background: -webkit-linear-gradient(90deg, rgb(44, 125, 137), rgb(21, 173, 173));
+  background: -moz-linear-gradient(90deg, rgb(44, 125, 137), rgb(21, 173, 173));
+  background: linear-gradient(90deg, rgb(44, 125, 137), rgb(21, 173, 173));
+}
+
+.GitHub{
+  width: 75%;
+  background: -webkit-linear-gradient(90deg, rgb(0, 0, 0), rgb(102, 103, 103));
+  background: -moz-linear-gradient(90deg, rgb(0, 0, 0), rgb(102, 103, 103));
+  background: linear-gradient(90deg, rgb(0, 0, 0), rgb(102, 103, 103));
+}
+
+.GIT{
+  width: 75%;
+  background: -webkit-linear-gradient(90deg, rgb(83, 54, 4), rgb(185, 117, 8));
+  background: -moz-linear-gradient(90deg, rgb(83, 54, 4), rgb(185, 117, 8));
+  background: linear-gradient(90deg, rgb(83, 54, 4), rgb(185, 117, 8));
+}
+
+.JS{
+  width: 65%;
+  background: -webkit-linear-gradient(90deg, rgb(120, 131, 18), rgb(179, 182, 13));
+  background: -moz-linear-gradient(90deg, rgb(120, 131, 18), rgb(179, 182, 13));
+  background: linear-gradient(90deg, rgb(120, 131, 18), rgb(179, 182, 13));
+}
+
+.change_text_CSS{
+  line-height: 1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.change_text_CSS:hover {
+  color: #3d3dfe;
+}
+
+.basically_text{
+  color: #ffffff;
+  text-shadow: 8px 8px 8px #000;
+}
+
+.basically_text_skills{
+  color: #ffffff;
+  text-shadow: 8px 8px 8px #000;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.change_text_Basically_knowledge_QA-engineering{
+  line-height: 1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.change_text_Basically_knowledge_QA-engineering:hover {
+  color: #15bb8c;
+}
+
+.change_text_VSC{
+  line-height: 1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.change_text_VSC:hover {
+  color: #911acd;
+}
+
+.change_text_Markdown{
+  line-height: 1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.change_text_Markdown:hover {
+  color: #18c3ea;
+}
+
+.change_text_GitHub{
+  line-height: 1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.change_text_GitHub:hover {
+  color: #808586;
+}
+
+.change_text_GIT{
+  line-height: 1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.change_text_GIT:hover {
+  color: #e8bb08;
+}
+
+.change_text_JS{
+  line-height: 1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.change_text_JS:hover {
+  color: #f6ff00;
+}
+
+code{
+  color: rgb(20, 171, 9);
+}
+
+.Example_code_block_content{
+background-color: #1c1b1b;
+}
+
+
+.photo_projects{
+  width: auto;
+  height: auto;
+  margin-left: -25px;
+}
+
+a.change_text_project{
+  color: #ffffff;
+  margin-left: 60px;
+  width: 145px;
+  line-height: 1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  text-decoration: none;
+  font-size: 23px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-shadow: 2px 2px 2px #000;
+}
+
+a.change_text_project:hover {
+  color: #0f1b54;
+  font-style: italic;
+  text-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+
+.black_color_project {
+  transition: filter 0.5s ease-in-out;
+  -webkit-filter:brightness(65%);
+  filter:brightness(65%);
+}
+
+.black_color_project:hover {
+  -webkit-filter:brightness(100%);
+  filter:brightness(100%);
+}
+
+.college_icon{
+  width: 40px;
+  height: 35px;
+  transition: filter 0.5s ease-in-out;
+  -webkit-filter: opacity(0%);
+  filter: opacity(0%);
+}
+
+.college_icon:hover{
+  -webkit-filter: opacity(100%);
+  filter: opacity(100%);
+}
+
+.h3_text_education_language{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-right: 45px;
+}
+
+.Ru_flag_icon{
+  width: 35px;
+  height: 30px;
+  position: absolute;
+  margin-left: 10px;
+  transition: filter 0.5s ease-in-out;
+  -webkit-filter: opacity(0%);
+  filter: opacity(0%);
+}
+
+.Ru_flag_icon:hover{
+  -webkit-filter: opacity(100%);
+  filter: opacity(100%);
+}
+
+.En_flag_icon{
+  width: 40px;
+  height: 35px;
+  position: absolute;
+  margin-left: 10px;
+  transition: filter 0.5s ease-in-out;
+  -webkit-filter: opacity(0%);
+  filter: opacity(0%);
+}
+
+.En_flag_icon:hover{
+  -webkit-filter: opacity(100%);
+  filter: opacity(100%);
+}
+
+.footer_git{
+  height: auto;
+  width: auto;
+  justify-self: center;
+}
+
+
+.footer_main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 35px 0px 18px 0px;
+    background-color: #1c1b1b
+}
+
+.footer_main_p{
+  justify-self: center;
+}
+
+.RSschool_logo{
+  height: 48px;
+  width: 130px;
+  justify-self: center;
+}
+
+.photo_body_project{
+  width: 100%;
+  height: 83px;
+  margin-bottom: 64px;
+  display: inline-grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.border_bottom_project_text{
+  border-bottom: 5px dashed rgb(3, 3, 30);
+  padding-bottom: 30px;
+}
+
+
+.container_block{
+  max-width:2000px;
+  margin: 0 auto;
   }
 
-  #background_block_left{
-    text-align: left;
-  }
-       
-  
   
