@@ -22,6 +22,10 @@ alert(`Hello ${UserName}`)
 alert(`Hi ${UserName}`)
 }
 ```
+## **Projects**
+###  _CV:_ [MY_CV](https://vasaskor.github.io/rsschool-cv/)
+## _Education:_
+### - *Minsk State College of Electronics: Computer operator (2017-2020)*
 ## _Languages:_
 ### - *Russian(Native)*
 ### - *English(A2)*
