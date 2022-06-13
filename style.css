@@ -474,7 +474,7 @@ a.change-text_project:hover {
 .footer_git{
   height: auto;
   width: auto;
-  justify-self: left;
+  justify-self: center;
 }
 
 
@@ -482,7 +482,7 @@ a.change-text_project:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    padding: 35px 70px 18px 80px;
+    padding: 35px 0px 18px 0px;
     background-color: #1c1b1b
 }
 
@@ -493,7 +493,7 @@ a.change-text_project:hover {
 .RSschool_logo{
   height: 48px;
   width: 130px;
-  justify-self: end;
+  justify-self: center;
 }
 
 .photo_body_project{
@@ -511,3 +511,9 @@ a.change-text_project:hover {
 }
 
 
+.container_block{
+  max-width:2000px;
+  margin: 0 auto;
+  }
+
+  
