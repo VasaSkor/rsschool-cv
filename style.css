@@ -411,7 +411,7 @@ a.change-text_project:hover {
 
 .black_color_project {
   transition: filter 0.5s ease-in-out;
-  -webkit-filter:brightness()(65%);
+  -webkit-filter:brightness(65%);
   filter:brightness(65%);
 }
 
@@ -504,4 +504,10 @@ a.change-text_project:hover {
   align-items: center;
   justify-content: center;
 }
+
+.border_bottom_project_text{
+  border-bottom: 5px dashed rgb(3, 3, 30);
+  padding-bottom: 30px;
+}
+
 
